@@ -2,9 +2,6 @@
 
 using System;
 using System.Threading.Tasks;
-using ChainSafe.Gaming.UnityPackage;
-using ChainSafe.Gaming.UnityPackage.UI;
-using UnityEngine;
 
 namespace ChainSafe.Gaming.Exchangers.Ramp.Sample
 {
@@ -29,7 +26,9 @@ namespace ChainSafe.Gaming.Exchangers.Ramp.Sample
                     DefaultAsset = "SEPOLIA_ETH",
                     FiatCurrency = "EUR",
                     FiatValue = 100,
-                    UserEmailAddress = "test@test.com",
+
+                    
+                    UserEmailAddress = "test@test.com-test",
                     SwapAmount = 5,
                     SelectedCountryCode = "RS"
                 });
